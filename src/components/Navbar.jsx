@@ -21,45 +21,48 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-black hover:underline">
-            Home
-          </a>
-          <a href="#" className="text-black hover:underline">
-            Committees
-          </a>
+        <div className="hidden md:flex items-center space-x-6">
+          {/* Navigation Links */}
+          <div className="flex items-center space-x-6">
+            <a href="#" className="text-black hover:underline">
+              Home
+            </a>
+            <a href="#" className="text-black hover:underline">
+              Committees
+            </a>
 
-          {/* Dropdown - For Authors */}
-          <div className="relative group">
-            <button className="text-black">For Authors ▾</button>
-            <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md py-2 w-40">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                Submission
-              </a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                Guidelines
-              </a>
+            {/* Dropdown - For Authors */}
+            <div className="relative group">
+              <button className="text-black">For Authors ▾</button>
+              <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md py-2 w-40">
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                  Submission
+                </a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                  Guidelines
+                </a>
+              </div>
+            </div>
+
+            {/* Dropdown - Previous Editions */}
+            <div className="relative group">
+              <button className="text-black">Previous Editions ▾</button>
+              <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md py-2 w-40">
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                  2024
+                </a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                  2023
+                </a>
+              </div>
             </div>
           </div>
 
-          {/* Dropdown - Previous Editions */}
-          <div className="relative group">
-            <button className="text-black">Previous Editions ▾</button>
-            <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md py-2 w-40">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                2024
-              </a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
-                2023
-              </a>
-            </div>
-          </div>
+          {/* Submit Paper Button */}
+          <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+            Submit Paper
+          </button>
         </div>
-
-        {/* Submit Paper Button */}
-        <button className="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
-          Submit Paper
-        </button>
       </div>
 
       {/* Mobile Menu */}

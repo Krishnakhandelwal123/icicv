@@ -42,7 +42,7 @@ export default function Partners() {
                 </div>
             </div>
         </section>
-        <img className="w-[100%]" src="./public/images/Design.jpg" alt="" />
+        <img className="w-[100%]" src="/images/Design.jpg" alt="" />
         </div>
     );
 }
