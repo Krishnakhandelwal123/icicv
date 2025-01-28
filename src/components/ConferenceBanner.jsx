@@ -19,7 +19,7 @@ export default function ConferenceBanner() {
       {/* Banner Image - Now covering 97% width! */}
       <div className="mt-6 mb-5 w-full max-w-[97%] flex justify-center items-center mx-auto">
         <img
-          src="/public/images/conferencebanner.jpg"
+          src="/images/ConferenceBanner.jpg"
           alt="ICICV-2025 Conference Venue"
           className="w-full h-auto object-cover rounded-lg shadow-lg"
         />

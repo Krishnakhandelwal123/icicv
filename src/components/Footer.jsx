@@ -64,7 +64,7 @@ export default function Footer() {
                 {/* Logo Section */}
                 <div className="w-full md:w-1/4 flex justify-center md:justify-end">
                     <img
-                        src="./public/images/icicv.png"
+                        src="/images/ICICV.png"
                         alt="ICICV Logo"
                         className="w-52 object-contain filter brightness-125 drop-shadow-lg"
                     />

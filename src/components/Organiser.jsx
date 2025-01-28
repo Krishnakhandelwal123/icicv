@@ -45,7 +45,7 @@ export default function AboutOrganisers() {
                 {/* Right - Image */}
                 <div className="md:w-1/3 w-full">
                     <img
-                        src="./public/images/Campus.jpg" // Ensure the image is in /public/images/
+                        src="/images/Campus.jpg" // Ensure the image is in /public/images/
                         alt="CNR NANOTEC, University of Calabria"
                         className="rounded-lg shadow-md w-full"
                     />
