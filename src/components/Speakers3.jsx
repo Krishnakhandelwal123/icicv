@@ -3,82 +3,82 @@ export default function Speakers3() {
         {
             name: "Ajoy Kumar Ray",
             university: "JIS Institute of Advanced Studies and Research, Kolkata, India",
-            image: "./public/images/Ajoy.jpg",
+            image: "/images/Ajoy.jpg",
         },
         {
             name: "Ibrahim A Hameed",
             university: "NTNU, Norway",
-            image: "./public/images/Ibrahim.jpg",
+            image: "/images/Ibrahim.jpg",
         },
         {
             name: "Saroj",
             university: "Guru Jambheshwar University of Science and Technology, India",
-            image: "./public/images/Saroj.jpg",
+            image: "/images/Saroj.jpg",
         },
         {
             name: "Aninda Bose",
             university: "Executive Editor, Springer Nature, London",
-            image: "./public/images/Aninda.jpg",
+            image: "/images/Aninda.jpg",
         },
         {
             name: "Nilanjan Dey",
             university: "Techno International New Town, Kolkata, India",
-            image: "./public/images/Nilanjan.jpg",
+            image: "/images/Nilanjan.jpg",
         },
         {
             name: "R Balasubramanian",
             university: "Professor, Indian Institute of Technology Roorkee, India",
-            image: "./public/images/R.jpg",
+            image: "/images/R.jpg",
         },
         {
             name: "Yi Pan",
             university: "Professor, Georgia State University, USA",
-            image: "./public/images/Yi.jpg",
+            image: "/images/Yi.jpg",
         },
         {
             name: "Arun Baran Samaddar",
             university: "Advisor, JIS Group, India",
-            image: "./public/images/Arun.jpg",
+            image: "/images/Arun.jpg",
         },
         {
             name: "Robin T Bye",
             university: "NTNU, Ålesund, NTNU",
-            image: "./public/images/Robin.jpg",
+            image: "/images/Robin.jpg",
         },
         {
             name: "Swagatam Das",
             university: "Indian Statistical Institute, Kolkata, India",
-            image: "./public/images/Swagatam.jpg",
+            image: "/images/Swagatam.jpg",
         },
         {
             name: "Ottar Laurits Osen",
             university: "NTNU, Ålesund, NTNU",
-            image: "./public/images/Ottar.jpg",
+            image: "/images/Ottar.jpg",
         },
         {
             name: "K.V. Arya",
             university: "ABV-IIITM, Gwalior, India",
-            image: "./public/images/K.jpg",
+            image: "/images/K.jpg",
         },
         {
             name: "Rajeev Srivastava",
             university: "Indian Institute of Technology (BHU) Varanasi, India",
-            image: "./public/images/Rajeev.jpg",
+            image: "/images/Rajeev.jpg",
         },
         {
             name: "Dharm Singh Jat",
             university: "Namibia University of Science and Technology, Namibia",
-            image: "./public/images/Dharm.jpg",
+            image: "/images/Dharm.jpg",
         },
         {
             name: "Rajesh Kumar",
             university: "MNIT Jaipur, India",
-            image: "./public/images/Rajesh.jpg",
+            image: "/images/Rajesh.jpg",
         },
         {
             name: "Bhabani Shankar Prasad Mishra",
             university: "KIIT University, Bhubaneswar, India",
-            image: "./public/images/Bhabani.jpg",
+            image: "/images/Bhabani.jpg",
         },
     ];
 

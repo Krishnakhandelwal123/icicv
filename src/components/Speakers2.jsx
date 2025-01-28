@@ -3,27 +3,27 @@ export default function Speakers2() {
       {
         name: "Rajesh Kumar",
         university: "MNIT Jaipur, India",
-        image: "./public/images/Rajesh.jpg",
+        image: "/images/Rajesh.jpg",
       },
       {
         name: "Aninda Bose",
         university: "Executive Editor, Springer Nature, London",
-        image: "./public/images/Aninda.jpg",
+        image: "/images/Aninda.jpg",
       },
       {
         name: "Nilanjan Dey",
         university: "Techno International New Town, Kolkata, India",
-        image: "./public/images/Nilanjan.jpg",
+        image: "/images/Nilanjan.jpg",
       },
       {
         name: "Ayan Mondal",
         university: "Indian Institute of Technology, Indore, India",
-        image: "./public/images/Ayan.jpg",
+        image: "/images/Ayan.jpg",
       },
       {
         name: "Arijit Roy",
         university: "Indian Institute of Technology, Patna, India",
-        image: "./public/images/Arijit.jpg",
+        image: "/images/Arijit.jpg",
       },
     ];
   
